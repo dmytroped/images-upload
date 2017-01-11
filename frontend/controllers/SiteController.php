@@ -107,7 +107,7 @@ class SiteController extends Controller
             }
         }
 
-        return $this->render('index', ['images' => $images]);
+        return $this->render('index');
     }
     /**
     * Deleting selected image
